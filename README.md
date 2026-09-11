@@ -15,17 +15,7 @@ QMK firmware and ergonomic design is my current main focus. After I've settled o
 
 ## Design and Implementation
 
-TBD:
-
-- Block diagrams
-- Circuit schematics
-- PCB designs
-- CAD models
-- Software architecture
-- Hardware selection
-- Calculations
-- Testing methods
-- Major design decisions
+Refer to `project_proposal_v3.pptx`
 
 ## Bill of Materials
 
@@ -72,6 +62,7 @@ Stenoqwit/
 │   ├── stenoqwit-NPTH.drl
 │   └── stenoqwit-PTH.drl
 ├── hero.png
+├── project_proposal_v3.pptx
 ├── README.md
 ├── stenoqwit.kicad_pcb
 ├── stenoqwit.kicad_prl
