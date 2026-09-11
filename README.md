@@ -1,27 +1,21 @@
-# Project Name
-
-> Replace this title with the name of your project.
+# Stenoqwit
 
 ## Project Owner
 
-**Name:** Your Name  
-**Virginia Tech Email:** yourpid@vt.edu
+**Name:** Christian Galvez
+**Virginia Tech Email:** chant4@vt.edu
 
 ## Project Overview
 
-Provide a clear description of what you are building and the overall goal of the project.
-
-Include enough detail for someone unfamiliar with the project to understand what it does and why you are building it.
+Enable complete circuit creation using a stenograph-like keyboard. This includes component placement, routing, user-defined symbols, and export to KiCad (no mouse or code required for the user.
 
 ## What I Hope to Learn
 
-Describe the technical skills, concepts, or experience you hope to gain from completing this project.
+QMK firmware and ergonomic design is my current main focus. After I've settled on a good ergonomic design, I hope to learn more on challenges EDA tools like KiCAD are facing.
 
 ## Design and Implementation
 
-Document the design of your project as it develops.
-
-This may include:
+TBD:
 
 - Block diagrams
 - Circuit schematics
@@ -31,60 +25,60 @@ This may include:
 - Hardware selection
 - Calculations
 - Testing methods
-
-Explain major design decisions and why you made them.
+- Major design decisions
 
 ## Bill of Materials
 
-Document the major components and materials used for the project.
-
-| Item | Quantity | Estimated Cost | Link |
-|---|---:|---:|---|
-| Component | 1 | $0.00 | Link |
-
-**Estimated Total Cost:** $0.00
+Refer to files in `bom/`
 
 ## Timeline and Milestones
 
-Outline the major stages of the project and update them as work progresses.
-
 | Milestone | Target Date | Status |
 |---|---|---|
-| Project planning | Date | Not Started |
-| Initial design | Date | Not Started |
-| Prototype | Date | Not Started |
-| Testing | Date | Not Started |
-| Project completion | Date | Not Started |
+| KiCAD First PCB Design | 9/11 | 100% |
 
 ## Progress Log
 
-Use this section to document meaningful progress throughout the project.
+September 11, 2001, commemoration date
 
-### YYYY-MM-DD
+### 2026-09-11
 
-Describe what you worked on, what was completed, any problems you encountered, and what you plan to work on next.
+Never forget
 
 ## Project Files
 
-Organize and document important project files in this repository. Depending on the project, this may include:
-
-- Source code
-- KiCad files
-- Schematics
-- PCB layouts
-- CAD files
-- Datasheets
-- Test results
-- Documentation
+```
+Stenoqwit/
+├── bom/
+│   ├── CPL.csv
+│   ├── DigiKeyBOM.xlsx
+│   └── JLCBOM.csv
+├── doc/
+│   └── # TODO
+├── firmware/qmk/keyboards/stenoqwit/
+│   ├── config.h
+│   ├── keymap.c
+│   └── rules.mk
+├── gerber/
+│   ├── stenoqwit-B_Cu.gbr
+│   ├── stenoqwit-B_Mask.gbr
+│   ├── stenoqwit-B_Paste.gbr
+│   ├── stenoqwit-Edge_Cuts.gbr
+│   ├── stenoqwit-F_Cu.gbr
+│   ├── stenoqwit-F_Mask.gbr
+│   ├── stenoqwit-F_Paste.gbr
+│   ├── stenoqwit-F_Silkscreen.gbr
+│   ├── stenoqwit-job.gbrjob
+│   ├── stenoqwit-NPTH.drl
+│   └── stenoqwit-PTH.drl
+├── hero.png
+├── README.md
+├── stenoqwit.kicad_pcb
+├── stenoqwit.kicad_prl
+├── stenoqwit.kicad_pro
+└── stenoqwit.kicad_sch
+```
 
 ## Useful Links
 
-Add any references, datasheets, documentation, tutorials, or other resources relevant to the project.
-
-## Project Image
-
-Replace the `hero.png` file in the root of this repository with an image representing your project.
-
-**Keep the filename as `hero.png`.**
-
-This image is used as the project cover image on the AMP Lab website.
+Refer to files in `doc/`
