@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-Enable complete circuit creation using a stenograph-like keyboard. This includes component placement, routing, user-defined symbols, and export to KiCad (no mouse or code required for the user.
+Complete circuit creation using a stenograph-like keyboard. This includes component placement, routing, user-defined symbols, and export to KiCad (no mouse or code required for the user).
 
 ## What I Hope to Learn
 
